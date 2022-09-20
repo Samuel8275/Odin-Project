@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.heading {
+    color: #fff;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 5em;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
